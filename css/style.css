@@ -23,30 +23,34 @@ body {
 
 .banner {
     width: 100%;
-    height: 90vh;
-    display: flex;align-items: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
     color: black;
 }
 
-#first{
+#first, #second, #third{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.text_w{
     width: 330px;
-}
-
-#second{
-    width: 380px;
-}
-
-#third{
-    width: 370px;
 }
 
 .left{
     width: 60%;
+    background-color: #FFF2AA;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-top: 90px;
 }
 
-.right{
+.right {
     width: 40%;
-    height: 100%;
+    height: 100vh;
     background-image: url(../img/zubtsi.jpg);
     background-position: center;
     background-size: cover;
@@ -61,7 +65,7 @@ body {
 
 .my-card {
     padding: 28px;
-    background: transparent;
+    background: #FFE483;
     transition: background .2s linear;
     border-radius: 10px;
     max-width: 350px;
@@ -97,7 +101,7 @@ body {
     font-size: 1rem;
     line-height: 1rem;
     /* 120% */
-    color: rgb(154, 131, 255);
+    color: black;
     display: flex;
     gap: 5px;
     align-items: center;
@@ -105,7 +109,7 @@ body {
 
 .my-card img {
     width: 244px;
-    height: 214px;
+    height: 100%;
     object-fit: contain;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.116);
 }
@@ -123,21 +127,33 @@ body {
 
 footer {
     margin-top: 50px;
-    background: rgb(73, 73, 73);
+    background: #FFE483;
     padding: 50px 100px;
+    height: 400px;
+    color: black;
 }
 
-footer {
-    color: #c8c8c8;
+#end-logo{
+    font-size: 35px;
 }
 
-.attribution {
-    color: #a8a8a8;
-    font-size: 12px;
+footer p{
+    font-size: 25px;
 }
 
-.attribution a {
-    color: #a8a8a8;
+.end{
+    font-size: 15px;
+    text-align: center;
+    position: relative;
+    top: 60px;
+}
+
+.fb button{
+    border: none;
+    background-color: transparent;
+    position: relative;
+    left: 600px;
+    width: 110px;
 }
 
 #themeToggle {
@@ -175,6 +191,7 @@ header.fixed {
     background: #FFE483;
     max-width: 100%;
     z-index: 100;
+    height: 90px;
 }
 
 /* Кнопка Кошик */
@@ -186,9 +203,10 @@ header.fixed {
     align-items: center;
     justify-content: center;
     gap: 10px;
-    background: linear-gradient(to left, rgb(173, 154, 255), rgb(149, 110, 255));
+    /*background: linear-gradient(to left, #FFE483, #FFF8D1);*/
+    background: #f6bd60;
     border-radius: 30px;
-    color: rgb(255, 255, 255);
+    color: black;
     font-weight: 600;
     font-size: 0.9em;
     font-family: "Martian Mono", monospace;
@@ -204,7 +222,7 @@ header.fixed {
 }
 
 .cart-btn:hover {
-    background: linear-gradient(to left, rgb(154, 131, 255), rgb(135, 91, 255));
+    background: linear-gradient(to left, #FFF8D1, #FFE483);
 }
 
 .cart-btn:active {
@@ -261,4 +279,26 @@ header.fixed {
     75% {
         transform: rotateZ(2deg);
     }
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar{
+    width: 100%;
+}
+
+.container-cards{
+    row-gap: 30px;
+}
+
+.products{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
 }

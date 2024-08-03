@@ -1,17 +1,32 @@
 [
     {
-        "title": "Apple IPhone 11",
+        "title": "Ґомбовці",
         "price": 22000,
-        "image": "v-a-tao-OxvlDO8RwKg-unsplash.jpg"
+        "image": "gombovtsi.png"
     },
     {
-        "title": "Google Pixel 4",
+        "title": "Деруни",
         "price": 10000,
-        "image": "anh-nhat-Ee-EjUVs__w-unsplash.jpg"
+        "image": "deruny.png"
     },
     {
-        "title": "Samsung Galaxy S21 Ultra",
+        "title": "Котлета по-київськи",
         "price": 29519,
-        "image": "anh-nhat-uCqMa_s-JDg-unsplash.jpg"
+        "image": "kotleta.png"
+    },
+    {
+        "title": "Пампушки",
+        "price": 10000,
+        "image": "pampushky.png"
+    },
+    {
+        "title": "Борщ",
+        "price": 10000,
+        "image": "borshch.png"
+    },
+    {
+        "title": "Кров'янка",
+        "price": 10000,
+        "image": "krov.png"
     }
 ]

@@ -15,9 +15,8 @@
   <!-- Тіло: увесь вміст сторінки  data-bs-theme="dark" -->
   <header class="container fixed">
     <nav class="navbar navbar-expand-lg ">
-      <div class="container">
-        <a class="navbar-brand" href="index.html"><img class='logo' src='img/logo_white.png' height="50px"
-            alt='logo'></a>
+      <div class="container menu">
+        <a class="navbar-brand" href="index.html">ЗУБЦІ</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -55,39 +54,44 @@
     <section class="banner">
       <div class="left">
         <div id="first">
-          <p>Зубці – заклад української кухні, названий на честь давньої народної страви.</p>
-          <img src="img/ukraine.png" alt="">
+          <p class="text_w">Зубці – заклад української кухні, названий на честь давньої народної страви.</p>
+          <div>
+            <img src="img/ukraine.png" alt="">
           <img src="img/herb.png" alt="">
+          </div>
+          
         </div>
         <div id="second">
           <img src="img/grain.png" alt="">
-          <p>Її готували з окільцьованого ячменю, який висушували, підсмажували й варили, як кашу. Зубці мали солодкуватий смак і вважалися ласощами.</p>
+          <p class="text_w">Її готували з окільцьованого ячменю, який висушували, підсмажували й варили, як кашу. Зубці мали солодкуватий смак і вважалися ласощами.</p>
         </div>
         <div id="third">
-          <p>Наш заклад пропонує найрізноманітніший асортимент української кухні, тож кожен тут може знайти страву на свій смак!</p>
+          <p class="text_w">Наш заклад пропонує найрізноманітніший асортимент української кухні, тож кожен тут може знайти страву на свій смак!</p>
           <img src="img/plate.png" alt="">
         </div>
       </div>
       <div class="right">
-        
       </div>
     </section>
     <section class="container products py-5" id="products">
       <div class="container-cards products-list">
 
       </div>
+      <button class="cart-btn">ПОБАЧИТИ БІЛЬШЕ</button>
+    </section>
   </main>
   <footer>
-    <button id="themeToggle"><i class="bi bi-brightness-high"></i></button>
-    <p>Logika IT School &copy; 2024</p>
-    <p>Релізний проєкт Ім'я Прізвище</p>
-
-    <div class="attribution">
-      Image by <a
-        href="https://www.freepik.com/free-photo/top-view-smartphone-with-keyboard-charger_26211576.htm#query=gadgets&position=6&from_view=search&track=sph&uuid=a96e5504-171e-4b86-aa38-9be26d27f16e">Freepik</a>
-      Image by <a
-        href="https://www.freepik.com/free-photo/high-angle-smartphone-desk-with-headphones_26211747.htm#from_view=detail_serie">Freepik</a>
+    <button id="themeToggle" style="display: none;"><i class="bi bi-brightness-high"></i></button>
+    <p id="end-logo">ЗУБЦІ</p>
+    <div class="fb">
+      <button>ПРО НАС</button>
+      <button>КОНТАКТИ</button>
+      <button>ПУБЛІЧНА ОФЕРТА</button>
+      <button>ПОЛІТИКА КОНФІДЕНЦІЙНОСТИ</button>
     </div>
+    <p>+380 ХХХ ХХХ ХХХ</p>
+    <p class="end">Всі права на матеріали, розміщені на сайті zubtsi.ua охороняються відповідно до законодавства України. Повне або часткове використання матеріалів сайту zubtsi.com без письмового дозволу Адміністрації сайту забороняється.</p>
+    <p class="end">© Зубці 2024</p>
   </footer>
 
  <!-- Модальне вікно (з'являється при натисканні на "Підтримка") -->
