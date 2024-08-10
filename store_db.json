@@ -1,32 +1,32 @@
 [
     {
         "title": "Ґомбовці",
-        "price": 22000,
+        "price": 220,
         "image": "gombovtsi.png"
     },
     {
         "title": "Деруни",
-        "price": 10000,
+        "price": 100,
         "image": "deruny.png"
     },
     {
         "title": "Котлета по-київськи",
-        "price": 29519,
+        "price": 200,
         "image": "kotleta.png"
     },
     {
         "title": "Пампушки",
-        "price": 10000,
+        "price": 150,
         "image": "pampushky.png"
     },
     {
         "title": "Борщ",
-        "price": 10000,
+        "price": 150,
         "image": "borshch.png"
     },
     {
         "title": "Кров'янка",
-        "price": 10000,
+        "price": 140,
         "image": "krov.png"
     }
 ]
